@@ -412,7 +412,7 @@ GameObject:
   - component: {fileID: 174665654}
   - component: {fileID: 174665653}
   - component: {fileID: 174665657}
-  - component: {fileID: 174665656}
+  - component: {fileID: 174665658}
   m_Layer: 0
   m_Name: ships_0_5
   m_TagString: Invader
@@ -562,22 +562,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &174665656
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 174665649}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &174665657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -590,6 +574,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &174665658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174665649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &318194845
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 318194850}
   - component: {fileID: 318194849}
   - component: {fileID: 318194853}
-  - component: {fileID: 318194852}
+  - component: {fileID: 318194854}
   m_Layer: 0
   m_Name: ships_0_14 (1)
   m_TagString: Invader
@@ -753,22 +753,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &318194852
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 318194845}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &318194853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -781,6 +765,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &318194854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 318194845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &374588751
 GameObject:
   m_ObjectHideFlags: 0
@@ -831,7 +831,7 @@ GameObject:
   - component: {fileID: 447110145}
   - component: {fileID: 447110144}
   - component: {fileID: 447110148}
-  - component: {fileID: 447110147}
+  - component: {fileID: 447110149}
   m_Layer: 0
   m_Name: ships_0_32
   m_TagString: Invader
@@ -981,22 +981,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &447110147
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 447110140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &447110148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1009,6 +993,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &447110149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447110140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &463310733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,7 +1214,7 @@ GameObject:
   - component: {fileID: 574155190}
   - component: {fileID: 574155189}
   - component: {fileID: 574155193}
-  - component: {fileID: 574155192}
+  - component: {fileID: 574155194}
   m_Layer: 0
   m_Name: ships_0_5 (2)
   m_TagString: Invader
@@ -1364,22 +1364,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &574155192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 574155185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &574155193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1392,6 +1376,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &574155194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574155185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &577494037
 GameObject:
   m_ObjectHideFlags: 0
@@ -1484,7 +1484,7 @@ GameObject:
   - component: {fileID: 590594105}
   - component: {fileID: 590594104}
   - component: {fileID: 590594108}
-  - component: {fileID: 590594107}
+  - component: {fileID: 590594109}
   m_Layer: 0
   m_Name: ships_0_23
   m_TagString: Invader
@@ -1634,22 +1634,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &590594107
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590594100}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &590594108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1662,6 +1646,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &590594109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 590594100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &599201376
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,7 +1675,7 @@ GameObject:
   - component: {fileID: 599201381}
   - component: {fileID: 599201380}
   - component: {fileID: 599201384}
-  - component: {fileID: 599201383}
+  - component: {fileID: 599201385}
   m_Layer: 0
   m_Name: ships_0_17 (1)
   m_TagString: Invader
@@ -1825,22 +1825,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &599201383
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 599201376}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &599201384
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1853,6 +1837,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &599201385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 599201376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &601391474
 GameObject:
   m_ObjectHideFlags: 0
@@ -1866,7 +1866,7 @@ GameObject:
   - component: {fileID: 601391479}
   - component: {fileID: 601391478}
   - component: {fileID: 601391482}
-  - component: {fileID: 601391481}
+  - component: {fileID: 601391483}
   m_Layer: 0
   m_Name: ships_0_11 (2)
   m_TagString: Invader
@@ -2016,22 +2016,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &601391481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 601391474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &601391482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2044,6 +2028,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &601391483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601391474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &606511969
 GameObject:
   m_ObjectHideFlags: 0
@@ -2204,7 +2204,7 @@ GameObject:
   - component: {fileID: 891898453}
   - component: {fileID: 891898452}
   - component: {fileID: 891898456}
-  - component: {fileID: 891898455}
+  - component: {fileID: 891898457}
   m_Layer: 0
   m_Name: ships_0_32 (2)
   m_TagString: Invader
@@ -2354,22 +2354,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &891898455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 891898448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &891898456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2382,6 +2366,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &891898457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 891898448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &947366151
 GameObject:
   m_ObjectHideFlags: 0
@@ -2395,7 +2395,7 @@ GameObject:
   - component: {fileID: 947366156}
   - component: {fileID: 947366155}
   - component: {fileID: 947366159}
-  - component: {fileID: 947366158}
+  - component: {fileID: 947366160}
   m_Layer: 0
   m_Name: ships_0_23 (1)
   m_TagString: Invader
@@ -2545,22 +2545,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &947366158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 947366151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &947366159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2573,6 +2557,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &947366160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 947366151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &952600447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2586,7 +2586,7 @@ GameObject:
   - component: {fileID: 952600452}
   - component: {fileID: 952600451}
   - component: {fileID: 952600455}
-  - component: {fileID: 952600454}
+  - component: {fileID: 952600456}
   m_Layer: 0
   m_Name: ships_0_11 (1)
   m_TagString: Invader
@@ -2736,22 +2736,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &952600454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 952600447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &952600455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2764,6 +2748,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &952600456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952600447}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &976178486
 GameObject:
   m_ObjectHideFlags: 0
@@ -2777,7 +2777,7 @@ GameObject:
   - component: {fileID: 976178491}
   - component: {fileID: 976178490}
   - component: {fileID: 976178494}
-  - component: {fileID: 976178493}
+  - component: {fileID: 976178495}
   m_Layer: 0
   m_Name: ships_0_23 (2)
   m_TagString: Invader
@@ -2927,22 +2927,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &976178493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 976178486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &976178494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2955,6 +2939,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &976178495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976178486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &1076359579
 GameObject:
   m_ObjectHideFlags: 0
@@ -2968,7 +2968,7 @@ GameObject:
   - component: {fileID: 1076359584}
   - component: {fileID: 1076359583}
   - component: {fileID: 1076359587}
-  - component: {fileID: 1076359586}
+  - component: {fileID: 1076359588}
   m_Layer: 0
   m_Name: ships_0_32 (3)
   m_TagString: Invader
@@ -3118,22 +3118,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1076359586
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1076359579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &1076359587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3146,6 +3130,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1076359588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1076359579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &1077820670
 GameObject:
   m_ObjectHideFlags: 0
@@ -3259,7 +3259,7 @@ GameObject:
   - component: {fileID: 1167935427}
   - component: {fileID: 1167935426}
   - component: {fileID: 1167935430}
-  - component: {fileID: 1167935429}
+  - component: {fileID: 1167935431}
   m_Layer: 0
   m_Name: ships_0_14
   m_TagString: Invader
@@ -3409,22 +3409,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1167935429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1167935422}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &1167935430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3437,6 +3421,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1167935431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167935422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &1176963700
 GameObject:
   m_ObjectHideFlags: 0
@@ -3450,7 +3450,7 @@ GameObject:
   - component: {fileID: 1176963705}
   - component: {fileID: 1176963704}
   - component: {fileID: 1176963708}
-  - component: {fileID: 1176963707}
+  - component: {fileID: 1176963709}
   m_Layer: 0
   m_Name: ships_0_17 (3)
   m_TagString: Invader
@@ -3600,22 +3600,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1176963707
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1176963700}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &1176963708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3628,6 +3612,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1176963709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1176963700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &1260228220
 GameObject:
   m_ObjectHideFlags: 0
@@ -4122,7 +4122,7 @@ GameObject:
   - component: {fileID: 1564234641}
   - component: {fileID: 1564234640}
   - component: {fileID: 1564234644}
-  - component: {fileID: 1564234643}
+  - component: {fileID: 1564234645}
   m_Layer: 0
   m_Name: ships_0_5 (1)
   m_TagString: Invader
@@ -4272,22 +4272,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1564234643
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1564234636}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &1564234644
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4300,6 +4284,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1564234645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564234636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &1565149654
 GameObject:
   m_ObjectHideFlags: 0
@@ -4313,7 +4313,7 @@ GameObject:
   - component: {fileID: 1565149659}
   - component: {fileID: 1565149658}
   - component: {fileID: 1565149662}
-  - component: {fileID: 1565149661}
+  - component: {fileID: 1565149663}
   m_Layer: 0
   m_Name: ships_0_11
   m_TagString: Invader
@@ -4463,22 +4463,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1565149661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1565149654}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &1565149662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4491,6 +4475,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1565149663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565149654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &1574061078
 GameObject:
   m_ObjectHideFlags: 0
@@ -4504,7 +4504,7 @@ GameObject:
   - component: {fileID: 1574061083}
   - component: {fileID: 1574061082}
   - component: {fileID: 1574061086}
-  - component: {fileID: 1574061085}
+  - component: {fileID: 1574061087}
   m_Layer: 0
   m_Name: ships_0_11 (3)
   m_TagString: Invader
@@ -4654,22 +4654,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1574061085
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1574061078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &1574061086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4682,6 +4666,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1574061087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574061078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &1625338112
 GameObject:
   m_ObjectHideFlags: 0
@@ -4695,7 +4695,7 @@ GameObject:
   - component: {fileID: 1625338117}
   - component: {fileID: 1625338116}
   - component: {fileID: 1625338120}
-  - component: {fileID: 1625338119}
+  - component: {fileID: 1625338121}
   m_Layer: 0
   m_Name: ships_0_17
   m_TagString: Invader
@@ -4845,22 +4845,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1625338119
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1625338112}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &1625338120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4873,6 +4857,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1625338121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625338112}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &1658256802
 GameObject:
   m_ObjectHideFlags: 0
@@ -4942,7 +4942,7 @@ GameObject:
   - component: {fileID: 1664446366}
   - component: {fileID: 1664446365}
   - component: {fileID: 1664446369}
-  - component: {fileID: 1664446368}
+  - component: {fileID: 1664446370}
   m_Layer: 0
   m_Name: ships_0_14 (2)
   m_TagString: Invader
@@ -5092,22 +5092,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1664446368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1664446361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &1664446369
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5120,6 +5104,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1664446370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1664446361}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &1702025754
 GameObject:
   m_ObjectHideFlags: 0
@@ -5133,7 +5133,7 @@ GameObject:
   - component: {fileID: 1702025759}
   - component: {fileID: 1702025758}
   - component: {fileID: 1702025762}
-  - component: {fileID: 1702025761}
+  - component: {fileID: 1702025763}
   m_Layer: 0
   m_Name: ships_0_5 (3)
   m_TagString: Invader
@@ -5283,22 +5283,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1702025761
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702025754}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &1702025762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5311,6 +5295,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1702025763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702025754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &1838768891
 GameObject:
   m_ObjectHideFlags: 0
@@ -5324,7 +5324,7 @@ GameObject:
   - component: {fileID: 1838768896}
   - component: {fileID: 1838768895}
   - component: {fileID: 1838768899}
-  - component: {fileID: 1838768898}
+  - component: {fileID: 1838768900}
   m_Layer: 0
   m_Name: ships_0_23 (3)
   m_TagString: Invader
@@ -5474,22 +5474,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1838768898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1838768891}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &1838768899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5502,6 +5486,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1838768900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1838768891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &1967359136
 GameObject:
   m_ObjectHideFlags: 0
@@ -5515,7 +5515,7 @@ GameObject:
   - component: {fileID: 1967359141}
   - component: {fileID: 1967359140}
   - component: {fileID: 1967359144}
-  - component: {fileID: 1967359143}
+  - component: {fileID: 1967359145}
   m_Layer: 0
   m_Name: ships_0_14
   m_TagString: Invader
@@ -5665,22 +5665,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1967359143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1967359136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &1967359144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5693,6 +5677,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1967359145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967359136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &2033747692
 GameObject:
   m_ObjectHideFlags: 0
@@ -5706,7 +5706,7 @@ GameObject:
   - component: {fileID: 2033747697}
   - component: {fileID: 2033747696}
   - component: {fileID: 2033747700}
-  - component: {fileID: 2033747699}
+  - component: {fileID: 2033747701}
   m_Layer: 0
   m_Name: ships_0_17 (2)
   m_TagString: Invader
@@ -5856,22 +5856,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2033747699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2033747692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &2033747700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5884,6 +5868,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2033747701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2033747692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1 &2092172968
 GameObject:
   m_ObjectHideFlags: 0
@@ -5997,7 +5997,7 @@ GameObject:
   - component: {fileID: 2099817424}
   - component: {fileID: 2099817423}
   - component: {fileID: 2099817427}
-  - component: {fileID: 2099817426}
+  - component: {fileID: 2099817428}
   m_Layer: 0
   m_Name: ships_0_32 (1)
   m_TagString: Invader
@@ -6147,22 +6147,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2099817426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2099817419}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b5ac184e994c3444a129d5879c2ed76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  missilePrefab: {fileID: 8083560470836679200, guid: 491fdd220b720f24bbf68928d325a406, type: 3}
-  fireRateMin: 1
-  fireRateMax: 3
-  score: 10
 --- !u!114 &2099817427
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6175,6 +6159,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a56d242d38be9043994ff1675c4083d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2099817428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099817419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dbb6a88f75a38640b0204ebb2098fec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missilePrefab: {fileID: 0}
+  fireRateMin: 1
+  fireRateMax: 3
+  score: 10
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

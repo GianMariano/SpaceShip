@@ -130,7 +130,8 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gettyimages-1447471637-640x640_0: 1836159118836293834
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

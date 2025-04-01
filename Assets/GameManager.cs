@@ -38,13 +38,9 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         player = FindObjectOfType<PlayerControl>();
+        if (player == null) Debug.LogError("PlayerControl not found!");
 
-        if (player == null)
-        {
-            Debug.LogError("PlayerControl not found!");
-        }
-
-        // Conta quantos invasores existem no início do jogo
+        // Conta todos os invasores no início do jogo
         totalInvaders = FindObjectsOfType<Invaderr>().Length;
 
         // Altera a cor de todos os invasores para branco
@@ -117,12 +113,9 @@ public class GameManager : MonoBehaviour
 
     private void Victory()
     {
-        // Salva o score final
         PlayerPrefs.SetInt("FinalScore", score);
         PlayerPrefs.Save();
-
-        // Carrega a cena de vitória
-        SceneManager.LoadScene("VictoryScene");
+        SceneManager.LoadScene("VictoryScene"); // Carrega a cena de vitória
     }
 
     private void UpdateScoreUI()
@@ -143,11 +136,13 @@ public class GameManager : MonoBehaviour
         UpdateScoreUI();
         Destroy(invader.gameObject);
 
+        totalInvaders--; // Decrementa o contador
+        Debug.Log("Inimigos restantes: " + totalInvaders); // Para debug
+
         // Verifica se todos os invasores foram destruídos
-        totalInvaders--;
-        if (totalInvaders <= 0 || score >= 1800)
+        if (totalInvaders <= 0)
         {
-            Victory(); // Chama a tela de vitória
+            Victory(); // Chama a tela de vitória imediatamente
         }
     }
 

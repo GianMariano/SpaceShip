@@ -41,9 +41,10 @@ public class PlayerControl : MonoBehaviour
         pos.y = Mathf.Clamp(pos.y, -boundY, boundY);
         transform.position = pos;
 
-        // Atira com Space (horizontalmente para a direita)
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            // Isso já usará a direção padrão do Projectile (horizontal)
             Instantiate(laserPrefab, transform.position, Quaternion.identity);
         }
     }
